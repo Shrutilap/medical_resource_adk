@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+**/__pycache__/
+
+# Node modules
+ui/node_modules/
+node_modules/
+.pnp/
+.pnp.js
+
+# Dependencies
+.dep/
+
+# Environment variables
+.env
+*.env
+
+# Build files
+build/
+dist/
+
+# IDE
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Database
+*.db
+*.sqlite3
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Package lock (optional - some prefer to include it)
+package-lock.json
