@@ -15,7 +15,7 @@ git clone -b main https://github.com/Shrutilap/froncort_adk.git
 cd froncort_adk
 
 # Create .env file
-cat > .env << EOF
+
 GOOGLE_API_KEY=your_google_api_key_here
 GOOGLE_GENAI_USE_VERTEXAI=FALSE
 DB_USER=hospital_user
@@ -26,11 +26,13 @@ DB_NAME=hospital_data
 DATABASE_URL=sqlite:///./my_chatbot_data.db
 VITE_REACT_APP_FASTAPI_URL=http://localhost:8000
 DEBUG=true
-EOF
+
 
 # Start services
 docker compose up -d --build
 ```
+
+Visit : http://localhost:8000
 
 ---
 
