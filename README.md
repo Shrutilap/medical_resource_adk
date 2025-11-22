@@ -1,4 +1,4 @@
-# Froncort - Medical Resource Allocation Agent
+#Medical Resource Allocation Agent
 
 A multi-agent system for hospital resource optimization, enabling administrators to query and allocate resources (beds, oxygen, staff, equipment) using natural language.
 Built with Google’s Agent Development Kit (ADK), it automatically interprets human queries, generates SQL commands, and provides actionable insights.
